@@ -1,0 +1,119 @@
+<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Survey Form</h1>
+    </header>
+    <div id="form">
+      <p id="description">Let us know how we can improve freeCodeCamp</p>
+      
+      <div id= "survey-form">
+        
+        <div class="rowTab">
+          <div class="labels">
+            <label for="">* Name:<label>
+          </div>
+          <div class="rightTab">
+            <input type="text" class="input-field" placeholder="Enter your name">  
+          </div>
+        </div>
+        
+        <div class="rowTab">
+          <div class="labels">
+            <label for="">* Email:</label>
+          </div>
+          <div class="rightTab">
+            <input type="text" class="input-field" placeholder="Enter your Email">
+          </div>
+        </div>
+        
+        <div class="rowTab">
+          <div class="labels">
+            <label for="">* Age:</label>
+          </div>
+          <div class="rightTab">
+            <input type="text" class="input-field" placeholder="Age">
+          </div>
+        </div>
+        
+        <div class="rowTab">
+          <div class="labels">
+            <label for="">Which option best describes your current role?</label>
+          </div>
+          <div class="rightTab">
+            <select name="currentPos" id="dropdown" class="dropdown" placeholder="select an option">
+              <option value="" disabled selected>Select an option</option>
+              <option value="" selected>Student</option>
+              <option value="">Full Time Job</option>
+              <option value="">Full Time Learner</option>
+              <option value="">Prefer not to say</option>
+              <option value="">Other</option>
+            </select>
+          </div>
+        </div>
+        
+         <div class="rowTab">
+           <div class="labels">
+             <label for="">* How likely is that you would recommend freeCodeCamp to a friend?</label>
+           </div>
+           <div class="rightTab">
+             <input type="radio"> Definitely <br>
+             <input type="radio"> Maybe <br>
+             <input type="radio"> Not sure <br>
+           </div>
+         </div>
+            
+         <div class="rowTab">
+           <div class="labels">
+             <label for="">What do you like most in FCC:</label>
+           </div>
+           <div class="rightTab">
+             <select name="" id="dropdown">
+               <option value="" disabled selected>Select an option</option>
+               <option value="">Challenges</option>
+               <option value="">Projects</option>
+               <option value="">Community</option>
+               <option value="">Open Source</option>
+             </select>
+           </div>
+         </div>
+            
+         <div class="rowTab">
+           <div class="labels">
+             <label for="">Things that should be improved in the future
+(Check all that apply):</label>
+           </div>
+           <div class="rightTab">
+             <input type="checkbox"> Front-end Projects <br>
+             <input type="checkbox"> Back-end Projects <br>
+             <input type="checkbox"> Data Visulization <br>
+             <input type="checkbox"> Challenges <br>
+             <input type="checkbox"> Open Source Community <br>
+             <input type="checkbox"> Gitter help rooms <br>
+             <input type="checkbox"> Videos <br>
+             <input type="checkbox"> City Meetups <br>
+             <input type="checkbox"> Wiki <br>
+             <input type="checkbox"> Forum <br>
+             <input type="checkbox"> Additional Courses <br>
+           </div>
+         </div>
+            
+         <div class="rowTab">
+           <div class="labels">
+             <label for="">Any Comments or Suggestions?</label>
+           </div>
+           <div class="rightTab">
+             <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Enter your comment here..."></textarea>
+           </div>
+           
+         </div>
+         <button id="submit">Submit</button>  
+      </div>
+      
+    </div>
+  </body>
+</html>
